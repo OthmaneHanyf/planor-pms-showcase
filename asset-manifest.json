@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/planor-pms-showcase/static/css/main.f5cd7b3a.css",
+    "main.js": "/planor-pms-showcase/static/js/main.6b36c4ef.js",
+    "static/media/home_cards.png": "/planor-pms-showcase/static/media/home_cards.53ae5ef4d86a12fa7792.png",
+    "static/media/htmlCssJs.png": "/planor-pms-showcase/static/media/htmlCssJs.caf6f207be00ad6684ed.png",
+    "static/media/home_hero.png": "/planor-pms-showcase/static/media/home_hero.a4072e90d3feb3fbfd3f.png",
+    "static/media/code.png": "/planor-pms-showcase/static/media/code.0c47ca3a1eb2daf02be1.png",
+    "static/media/postgresql.svg": "/planor-pms-showcase/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/banner02.svg": "/planor-pms-showcase/static/media/banner02.2f6ba07c3ed4697086f7.svg",
+    "static/media/banner03.svg": "/planor-pms-showcase/static/media/banner03.a278a430daff7d7a2a6e.svg",
+    "static/media/banner.svg": "/planor-pms-showcase/static/media/banner.3c310352a6d940cab963.svg",
+    "static/media/banner04.svg": "/planor-pms-showcase/static/media/banner04.b43b10b807bb6396ac49.svg",
+    "static/media/laravel.svg": "/planor-pms-showcase/static/media/laravel.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
+    "index.html": "/planor-pms-showcase/index.html",
+    "main.f5cd7b3a.css.map": "/planor-pms-showcase/static/css/main.f5cd7b3a.css.map",
+    "main.6b36c4ef.js.map": "/planor-pms-showcase/static/js/main.6b36c4ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5cd7b3a.css",
+    "static/js/main.6b36c4ef.js"
+  ]
+}
