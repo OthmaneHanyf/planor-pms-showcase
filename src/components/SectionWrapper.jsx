@@ -4,7 +4,7 @@ import styles from '../styles/Global';
 import assets from '../assets';
 import Button from './Button';
 
-const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
+const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse, login, password }) => {
   return (
     <div className={`min-h-screen ${styles.section} 
       ${reverse ? styles.bgWhite : styles.bgPrimary} 
@@ -21,11 +21,19 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           ${styles.h1Text}`}>{title}</h1>
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description}</p>
+          ${login && password ? styles.credentialsText: styles.descriptionText}`}>{description}</p>
+          {login && password 
+          ? (<><p className={`
+            ${reverse ? styles.blackText : styles.whiteText}
+            ${styles.credentialsText}`}>login : {login}</p>
+            <p className={`
+            ${reverse ? styles.blackText : styles.whiteText}
+            ${styles.credentialsText}`}>Password : {password}</p></>)
+          : ''}
           {showBtn && (
-            <Button 
-              assetUrl={assets.expo}
-              link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
+            <Button
+              assetUrl={assets.code}
+              link="https://planor-pms.herokuapp.com/"
             />
           )}
         </div>
